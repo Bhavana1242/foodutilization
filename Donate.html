@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="css/donate_style.css">
+   <title>Donate your food</title>
+</head>
+<body>
+   <div class="container">
+       <header>
+           <h1 id='title'>Donate excess food</h1>
+           <p id='description'>
+               Thank you for this step
+           </p>
+       </header>
+
+       <form id='survey-form' action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdywg2Z-O8J1mXmkCE7Ci7I0HbDTQAQa7eCsJr_EnZyFreWTQ/formResponse">
+           <div class='form-input'>
+               <label id='name-label'>Name</label>
+               <input type='text' name="entry.339829534" id='name' placeholder='Enter your name' class='form-input-size' required />
+           </div>
+           <div class='form-input'>
+               <label id='email-label'>Email</label>
+               <input type='email' name="entry.1542470086"id='email' placeholder='Enter your email' class='form-input-size' required />
+           </div>
+           <div class='form-input'>
+            <label id='contact-label'>Contactno.</label>
+            <input type='text' name="entry.1768590540"id='contact' placeholder='Enter contact no.' class='form-input-size' required />
+        </div>
+          <!--- <div class='form-input'>
+               <label id='number-label'>Age
+                   <span>(optional)</span>
+               </label>
+               <input type='number' id='number' placeholder='25' min='0' max='80' class='form-input-size' />
+           </div>-->
+
+           <div class='form-input'>
+               <p>Which type of food it is?</p>
+               <input type='radio' name='entry.637998677' id='radio-btn' value='Excess food' />excess food   </br>
+               <input type='radio' name='entry.637998677' id='radio-btn' value='Food waste' />food waste </br>
+               <input type='radio' name='entry.637998677' id='radio-btn' value='Stale' />stale </br>
+               <input type='radio' name='entry.637998677' id='radio-btn' value='Other' />other </br>
+           </div>
+
+           <div class='form-input'>
+               <p>Would you recommend this website to friend or family?</p>
+               <input type='radio' name='entry.2045280476' id='radio-btn' value='Definitely'/>Definitely    </br>
+               <input type='radio' name='entry.2045280476' id='radio-btn' value='Maybe' />Maybe </br>
+               <input type='radio' name='entry.2045280476' id='radio-btn' value='Not sure' />Not sure </br>
+           </div>
+           <div class='form-input'>
+            <p> Address</p>
+            <textarea type='text'name="entry.326359804" placeholder='Enter address'></textarea>
+        </div>
+
+           
+           <div class='form-input'>
+               <p>Any comments or suggestions?</p>
+               <textarea type='text' name="entry.1002479878"placeholder='Enter your comment here...'></textarea>
+           </div>
+
+           <div class='form-input'>
+               <button type='submit' id='submit'>Submit</button>
+           </div>
+       </form>
+   </div>
+
+</body>
+</html>
